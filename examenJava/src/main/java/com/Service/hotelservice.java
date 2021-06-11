@@ -10,7 +10,7 @@ import org.hibernate.Session;
 import com.examenJava.hotel;
 import com.TD_Hibernate_Git.HibernateUtil;
 
-public class hotelService implements Serializable {
+public class hotelservice implements Serializable {
 	
 	public boolean create(hotel c, Session s)
 	{

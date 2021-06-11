@@ -7,10 +7,10 @@ import org.hibernate.Hibernate;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-import com.examenJava.directeur;
+import com.examenJava.salarie;
 import com.TD_Hibernate_Git.HibernateUtil;
 
-public class salarieService implements Serializable {
+public class salarieservice implements Serializable {
 	
 	public boolean create(salarie c, Session s)
 	{

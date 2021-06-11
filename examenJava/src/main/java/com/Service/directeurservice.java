@@ -10,7 +10,7 @@ import org.hibernate.Session;
 import com.examenJava.directeur;
 import com.TD_Hibernate_Git.HibernateUtil;
 
-public class directeurService implements Serializable {
+public class directeurservice implements Serializable {
 	
 	public boolean create(directeur c, Session s)
 	{
