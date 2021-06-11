@@ -16,7 +16,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "directeur")
-public class Client {
+public class directeur {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
